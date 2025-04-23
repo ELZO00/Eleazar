@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"s>
+<title>My profile</title>
+<style>
+
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6
+margin: 0;
+padding: 0;
+background color: #f4f4f4;
+color: #333;
+transition: all 0.3 ease; 
+}
+
+body.dark-mode {
+background color: #222;
+color: #f4f4f4;
+}
+
+header {
+background: #35424a;
+color: white;
+padding: 1rem;
+text-align: center;
+}
+
+main{
+flex-direction:column;
+}
+
+.center{
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+.profile {
+text align: center;
+paddind: 2rem;
+}
+
+
+
+#profile-pic {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+border: 3px solid #35424a;
+margin-left:calc(50% - 75px);
+}
+
+.skills {
+background: #e2e2e2;
+padding: 1rem;
+margin: 1rem;
+border-radius: 5px;
+}
+
+body.dark-mode .skills {
+background: #444;
+}
+
+
+button {
+padding: 0.5rem 1rem;
+background: #35424a;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer
+}
+ 
+button.hover {
+background: #4e6575;
+}
+
+footer {
+text-align: center
+padding: 1rem
+background: #35424a
+color: white
+}
+
+body.dark-mode footer {
+background: #111:
+}
+
+
+.card{
+margin:1rem;
+border-radius:8px;
+padding:1rem;
+margin-top:5rem;
+}
+</style>
+</head>
+
+<body>
+
+<header class="center">
+<h1>Welcome to My Profile</h1>
+</header>
+
+<main class="center">
+
+<section class="profile">
+<img src="profile-pic.jpg" alt="Profile Picture" id="profile-pic">
+<h2 id="name">EL ZO</h2>
+<p id="title">Web Developer</p>
+<p id="bio">I Like creating beautiful, functional websites.</p>
+<button id="theme-btn'>Toggle Dark Mode</button>
+</section>
+
+<section class="skills">
+<h3>My Skills</h3>
+<ul id="skills-list">
+<li>HTML</li>
+<li>CSS</li>
+<li>javascript</li>
+</ul>
+</section>
+<p>
+Contact me at: 
+<a href="mailto:elzo4577@gmail.com">elzo4577@gmail.com</a>
+<a href="https://facebook.com/your.EL ZO" target="_blank">Facebook</a></p>
+
+</p>
+</main>
+
+
+<footer></footer>
+
+</body>
+</html>
